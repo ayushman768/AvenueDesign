@@ -119,7 +119,7 @@ p::first-letter {
     text-align: center;
     color: rgb(255, 255, 255);
     letter-spacing: 10;
-    font-size: 95px;
+    font-size: 85px;
 }
 .social {
     position: relative;
