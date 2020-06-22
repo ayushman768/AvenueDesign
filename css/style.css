@@ -113,13 +113,14 @@ p::first-letter {
     top: 233px;
 }
 .bg-img>h1 {
-    position: relative;
+   position: relative;
     top: 148px;
     bottom: 50;
     text-align: center;
     color: rgb(255, 255, 255);
     letter-spacing: 10;
     font-size: 85px;
+    margin: 0px 0px 0px -13px;
 }
 .social {
     position: relative;
