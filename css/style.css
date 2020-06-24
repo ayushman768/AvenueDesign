@@ -1,1 +1,266 @@
-body{font-family:'Nanum Myeongjo'}html{scroll-behavior:smooth}.root{--display-inline:inline-block;--padding-10:10px;--color-blk:black}.pad-10{padding:10px}h1{font-weight:800}.margin{margin:10px 0}.font-sizep{font-size:23px}.font-size-pra{font-size:16px;line-height:1.7;color:#000}.font-para{font-size:18px}.color-white{color:#fff;font-weight:700}.img-set{width:100%;display:block}.para-family{font-family:'EB Garamond',serif}.bg-blk{background-color:#000}header{padding:10px;position:fixed;width:100%;z-index:99999;box-shadow:0 0 55px 0}p::first-letter{font-size:40px;font-weight:800}.nav>li{display:var(--display-inline)}.nav>li>a{display:var(--display-inline)}.bg{background-image:url(../img/clement-h-95YRwf6CNw8-unsplash.jpg);background-size:cover;background-position:center;width:100%;height:110%;display:block;background-repeat:no-repeat;background-attachment:fixed}.set{position:relative;top:100px}.btn{font-size:28px;font-weight:800;color:#fff;padding:10px;border-radius:22px;position:relative;border:6px solid #fff}.btn-set{text-align:center;position:relative;top:233px}.bg-img>h1{position:relative;top:148px;bottom:50;text-align:center;color:#fff;letter-spacing:10;font-size:85px;margin:0 0 0 -13px}.social{position:relative;text-align:center;top:190px;padding:10px}span>a{color:#fff;padding:15px}label{display:none}@media (max-width:1024px){.navigation{display:none}.main{display:block}#hide{position:absolute;right:39px;color:#fff;top:35px;z-index:99999;display:block}#menu:checked~header .navigation{display:block}.nav>li>a{display:block}}.bar1,.bar2,.bar3{width:35px;height:5px;background-color:#fff;margin:6px 0;transition:.4s}.main{display:none}.hover:hover{color:#fff;border:1px solid #fff;border-radius:3px}.serv-slide{font-size:11px;padding:10px;cursor:pointer}.serv-slide>a{color:#000;text-decoration:none}.serv-slide>h1,h1{font-size:23px}.serv-slide:hover{box-shadow:0 12px 13px 3px #0000003d;transition:.6s}.projects{height:88%;width:100%;overflow:scroll}textarea{margin:0;width:100%;height:28%}.scroll::-webkit-scrollbar{width:5px}.scroll::-webkit-scrollbar-track{border-radius:10px}.scroll::-webkit-scrollbar-thumb{background:#000;border-radius:10px}.scroll::-webkit-scrollbar-thumb:hover{background:#b30000}
+body {
+    font-family: 'Nanum Myeongjo';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.root {
+    --display-inline: inline-block;
+    --padding-10: 10px;
+    --color-blk: black;
+}
+
+
+/* ##############importent-css################  */
+
+.pad-10 {
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.margin {
+    margin: 10px 0px;
+}
+
+.font-sizep {
+    font-size: 23px;
+}
+
+.font-size-pra {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+}
+
+.font-para {
+    font-size: 18px;
+}
+
+.pad-c {
+    padding: 10px 2px;
+}
+
+.color-white {
+    color: white;
+    font-weight: 700;
+}
+
+.img-set {
+    width: 100%;
+    display: block;
+}
+
+.para-family {
+    font-family: 'EB Garamond', serif;
+}
+
+.bg-blk {
+    background-color: black;
+}
+
+
+/* ##############importent-css################  */
+
+header {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    box-shadow: 0px 0px 55px 0px
+}
+
+p::first-letter {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav>li {
+    display: inline-block;
+}
+
+.nav>li>a {
+    display: var(--display-inline);
+    padding: 10px 10px;
+}
+
+.bg {
+    background-image: url(..//img/clement-h-95YRwf6CNw8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110%;
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.set {
+    position: relative;
+    top: 100px;
+}
+
+.btn {
+    font-size: 28px!important;
+    font-weight: 800!important;
+    color: rgb(255, 255, 255)!important;
+    /* background: rgb(0, 0, 0); */
+    padding: 10px!important;
+    border-radius: 22px!important;
+    /* background: rgb(255, 255, 255); */
+    /* color: rgb(0, 0, 0); */
+    position: relative!important;
+    border: 6px solid rgb(255, 255, 255)!important;
+}
+
+.btn-set {
+    text-align: center;
+    position: relative;
+    top: 233px;
+}
+
+.bg-img>h1 {
+    position: relative;
+    top: 148px;
+    bottom: 50;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10;
+    font-size: 87px;
+}
+
+.social {
+    position: relative;
+    text-align: center;
+    top: 190px;
+    padding: 10px;
+}
+
+span>a {
+    color: white;
+    padding: 15px;
+}
+
+label,
+.main {
+    display: none!important;
+}
+
+.con {
+    background-image: url(../img/design.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    background-attachment: fixed;
+}
+
+.color-white {
+    color: white;
+}
+
+@media (max-width:1024px) {
+    .navigation {
+        display: none;
+    }
+    .nav>li {
+        display: block;
+    }
+    #hide {
+        position: absolute;
+        right: 39px;
+        color: rgb(255, 255, 255);
+        top: 19px;
+        z-index: 99999;
+        display: block!important;
+    }
+    #menu:checked~header .navigation {
+        display: block!important;
+    }
+    .nav>li>a {
+        display: block;
+    }
+    .bg-img>h1 {
+        position: relative;
+        top: 148px;
+        bottom: 50;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        letter-spacing: 10;
+        font-size: 77px;
+    }
+    .logimg {
+        width: 42px;
+    }
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.hover:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.serv-slide {
+    font-size: 11px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.serv-slide>a {
+    color: black;
+    text-decoration: none;
+}
+
+.serv-slide>h1,
+h1 {
+    font-size: 20px;
+}
+
+.serv-slide:hover {
+    box-shadow: 0px 12px 13px 3px #0000003d;
+    transition: 0.6s;
+}
+
+.projects {
+    height: 88%;
+    width: 100%;
+    overflow: scroll;
+}
+
+textarea {
+    margin: 0px;
+    width: 100%;
+    height: 28%;
+    border: none;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
