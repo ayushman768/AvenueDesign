@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <input type="checkbox" id="menu" class="main">
     <header class="bg-blk ">
 
@@ -375,5 +375,8 @@
         </div>
     </footer>
 </body>
+			<script>
+			document.addEventListener('contextmenu', event => event.preventDefault());
+			</script>
 
 </html>
