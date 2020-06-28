@@ -1,10 +1,13 @@
-       body {
+        body {
             font-family: 'Nanum Myeongjo';
-                -webkit-user-select: none;  /* Chrome all / Safari all */
-                -moz-user-select: none;     /* Firefox all */
-                -ms-user-select: none;      /* IE 10+ */
-                -o-user-select: none;
-                user-select: none;
+            -webkit-user-select: none;
+            /* Chrome all / Safari all */
+            -moz-user-select: none;
+            /* Firefox all */
+            -ms-user-select: none;
+            /* IE 10+ */
+            -o-user-select: none;
+            user-select: none;
         }
         
         html {
@@ -246,7 +249,6 @@
             }
             .bg {
                 background-image: url(..//img/clement-h-95YRwf6CNw8-unsplash.jpg);
-                
                 width: 100%;
                 display: block;
                 background-repeat: no-repeat;
@@ -297,9 +299,9 @@
         }
         
         .projects {
-            height: 88%;
             width: 100%;
             overflow: scroll;
+            height: 250px;
         }
         
         textarea {
